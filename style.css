@@ -1,20 +1,24 @@
 h1 {
     text-align: center;
-    font-size: 90px;
+    font-size: 100px;
     color: turquoise;
     font-family: "Space Mono";
     margin: 40px;
+    text-shadow: 4px 4px 5px white;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 45px;
     font-family: "Cormorant Infant";
     color: turquoise;
+    transform: scale(1.5, 1.5);
+    text-shadow: 2px 2px black;
 }
+
 h4 {
     font-size: 30px;
     color: white;
-    font-family:"Cormorant Infant"; 
+    font-family: "Cormorant Infant";
 }
 
 hr {
@@ -38,59 +42,129 @@ div {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    background: url(img_galaxy.jpg) no-repeat center center fixed ; 
-    webkit-background-size: cover;
-    moz-background-size: cover;
-    o-background-size: cover;
+    background: url(img_galaxy.jpg) no-repeat center center fixed;
     background-size: cover;
-
 }
 
 .characters #Evie-Earth {
     font-size: 25px;
-    color: green;
-    background: black;
+    color: white;
+    background: linear-gradient(white, green);
     font-family: "Cormorant Infant";
     margin-left: 700px;
     margin-right: 0px;
     float: right;
     margin-bottom: 10px;
+    width: 800;
+    height: 800;
+    transition: width 2s, height 2s, transform 2s;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+.characters #Evie-Earth:hover {
+    width: 800;
+    height: 800;
+    transform: rotate(360deg);
+}
+
+.characters #Evie-Earth:spin {
+    width: 800;
+    height: 800;
+    transform: rotate(360deg)
 }
 
 .characters #Virginia-Venus {
     font-size: 25px;
     color: #FF3333;
-    background: black;
+    background: linear-gradient(white, yellow);
     font-family: "Cormorant Infant";
-    margin-left:0px;
+    margin-left: 0px;
     margin-right: 700px;
     margin-bottom: 10px;
     float: left;
+    width: 800;
+    height: 800;
+    transition: width 2s, height 2s, transform 2s;/*This makes the  */
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
 }
 
+.characters #Virginia-Venus:hover {
+    width: 800;
+    height: 800;
+    transform: rotate(360deg);
+}
+
+.characters #Virginia-Venus:spin {
+    width: 800;
+    height: 800;
+    transform: rotate(360deg)
+}
 .characters #Noah-Neptune {
     font-size: 25px;
-    color: #09B8FF;
-    background: black;
+    color: white;
+    background: linear-gradient(white, blue);
     font-family: "Cormorant Infant";
     margin-left: 700px;
     margin-right: 0px;
     margin-bottom: 10px;
     float: right;
+    width: 800;
+    height: 800;
+    transition: width 2s, height 2s, transform 2s;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
 }
 
+.characters #Noah-Neptune:hover {
+    width: 800;
+    height: 800;
+    transform: rotate(360deg);
+}
+
+.characters #Noah-Neptune:spin {
+    width: 800;
+    height: 800;
+    transform: rotate(360deg)
+}
 .characters #Steven-Sun {
     font-size: 25px;
-    color: #FFCF09;
-    background: black;
+    color: white;
+    background: linear-gradient(white, orange);
     font-family: "Cormorant Infant";
-    margin-left:0px;
-    margin-right:700px;
+    margin-left: 0px;
+    margin-right: 700px;
     margin-bottom: 10px;
     float: left;
+    width: 800;
+    height: 800;
+    transition: width 2s, height 2s, transform 2s;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
 }
 
-.input{
+.characters #Steven-Sun:hover {
+    width: 800;
+    height: 800;
+    transform: rotate(360deg);
+}
+
+.characters #Steven-Sun:spin {
+    width: 800;
+    height: 800;
+    transform: rotate(360deg)
+}
+
+.input {
     font-size: 20px;
     margin: 5px;
     font-size: 20px;
@@ -98,7 +172,7 @@ div {
     margin: auto;
 }
 
-.button{
+.button {
     border-radius: 5px;
     font-family: "Cormorant Infant";
     color: red;
