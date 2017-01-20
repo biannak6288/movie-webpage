@@ -49,7 +49,7 @@ div {
 .characters #Evie-Earth {
     font-size: 25px;
     color: white;
-    background: linear-gradient(white, green);
+    background: linear-gradient(white, green);/*makes the background ombre from one color to another without a sudden change*/
     font-family: "Cormorant Infant";
     margin-left: 700px;
     margin-right: 0px;
@@ -57,7 +57,7 @@ div {
     margin-bottom: 10px;
     width: 800;
     height: 800;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 2s;/*This makes the character go through a change withina the time limit specified of 2s and 2s; making it spin*/
     animation-name: spin;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -69,7 +69,7 @@ div {
     height: 800;
     transform: rotate(360deg);
 }
-
+/*this animation rotates the shape boxes when the page loads*/
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -82,7 +82,7 @@ div {
 .characters #Virginia-Venus {
     font-size: 25px;
     color: #FF3333;
-    background: linear-gradient(white, yellow);
+    background: linear-gradient(white, yellow);/*makes the background ombre from one color to another without a sudden change*/
     font-family: "Cormorant Infant";
     margin-left: 0px;
     margin-right: 700px;
@@ -90,8 +90,7 @@ div {
     float: left;
     width: 800;
     height: 800;
-    transition: width 2s, height 2s, transform 2s;
-    /*This makes the  */
+    transition: width 2s, height 2s, transform 2s;/*This makes the character go through a change withina the time limit specified of 2s and 2s; making it spin*/
     animation-name: spin;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -103,7 +102,7 @@ div {
     height: 800;
     transform: rotate(360deg);
 }
-
+ /*this animation rotates the shape boxes when the page loads*/
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -116,7 +115,7 @@ div {
 .characters #Noah-Neptune {
     font-size: 25px;
     color: white;
-    background: linear-gradient(white, blue);
+    background: linear-gradient(white, blue);/*makes the background ombre from one color to another without a sudden change*/
     font-family: "Cormorant Infant";
     margin-left: 700px;
     margin-right: 0px;
@@ -124,7 +123,7 @@ div {
     float: right;
     width: 800;
     height: 800;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 2s;/*This makes the character go through a change withina the time limit specified of 2s and 2s; making it spin*/
     animation-name: spin;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -136,7 +135,7 @@ div {
     height: 800;
     transform: rotate(360deg);
 }
-
+/*this animation rotates the shape boxes when the page loads*/
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -146,7 +145,7 @@ div {
 .characters #Steven-Sun {
     font-size: 25px;
     color: white;
-    background: linear-gradient(white, orange);
+    background: linear-gradient(white, orange);/*makes the background ombre from one color to another without a sudden change*/
     font-family: "Cormorant Infant";
     margin-left: 0px;
     margin-right: 700px;
@@ -154,7 +153,7 @@ div {
     float: left;
     width: 800;
     height: 800;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 2s;/*This makes the character go through a change withina the time limit specified of 2s and 2s; making it spin*/
     animation-name: spin;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -166,7 +165,7 @@ div {
     height: 800;
     transform: rotate(360deg);
 }
-
+/*this animation rotates the shape boxes when the page loads*/
 @keyframes spin {
     from {
         transform: rotate(0deg);
