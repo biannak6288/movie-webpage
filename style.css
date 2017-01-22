@@ -59,8 +59,8 @@ div {
     height: 800;
     transition: width 2s, height 2s, transform 2s;/*This makes the character go through a change withina the time limit specified of 2s and 2s; making it spin*/
     animation-name: spin;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
+    animation-duration: 3s;/*Have the animation last 3 seconds*/
+    animation-iteration-count: 1;/*Have the animation occur once*/
     animation-direction: alternate;
 }
 
@@ -92,8 +92,8 @@ div {
     height: 800;
     transition: width 2s, height 2s, transform 2s;/*This makes the character go through a change withina the time limit specified of 2s and 2s; making it spin*/
     animation-name: spin;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
+    animation-duration: 3s;/*Have the animation last 3 seconds*/
+    animation-iteration-count: 1;/*Have the animation occur once*/
     animation-direction: alternate;
 }
 
@@ -125,8 +125,8 @@ div {
     height: 800;
     transition: width 2s, height 2s, transform 2s;/*This makes the character go through a change withina the time limit specified of 2s and 2s; making it spin*/
     animation-name: spin;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
+    animation-duration: 3s;/*Have the animation last 3 seconds*/
+    animation-iteration-count: 1;/*Have the animation occur once*/
     animation-direction: alternate;
 }
 
@@ -154,10 +154,10 @@ div {
     width: 800;
     height: 800;
     transition: width 2s, height 2s, transform 2s;/*This makes the character go through a change withina the time limit specified of 2s and 2s; making it spin*/
-    animation-name: spin;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
+    animation-name: spin; 
+    animation-duration: 3s; /*Have the animation last 3 seconds*/
+    animation-iteration-count: 1;/*Have the animation occur once*/
+    animation-direction: alternate; 
 }
 
 .characters #Steven-Sun:hover {
